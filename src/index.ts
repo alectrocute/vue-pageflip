@@ -1,3 +1,3 @@
-import { HTMLFlipBook } from './html-flip-book';
+import { VuePageflip } from './vue-pageflip/index.vue';
 
-export default HTMLFlipBook;
+export default VuePageflip;
