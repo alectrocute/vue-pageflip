@@ -42,7 +42,7 @@ You can install the latest version using npm:
 </template>
 
 <script setup lang="ts">
-import HTMLFlipBook from './HTMLFlipBook.vue';
+import HTMLFlipBook from 'vue-pageflip';
 
 function onFlip(e: unknown) {
   console.log('Flipped:', e);
