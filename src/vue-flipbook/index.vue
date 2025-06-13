@@ -7,7 +7,7 @@
 <script lang="ts">
 import { defineComponent, ref, onMounted, onBeforeUnmount, nextTick } from 'vue';
 import { PageFlip } from 'page-flip';
-import type { IFlipSetting } from './settings';
+import type { IFlipSetting } from './types.d.ts';
 
 export default defineComponent({
   name: 'HTMLFlipBook',
